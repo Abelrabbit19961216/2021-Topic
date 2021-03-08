@@ -1,0 +1,78 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 微軟正黑體;
+}
+
+#card {
+  width: 730px;
+  margin: 80px auto 10px;
+  padding: 35px 20px;
+  border-radius: 5px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 250px auto;
+      grid-template-columns: 250px auto;
+  color: white;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+span {
+  font-size: 22px;
+  background: #8d8d8d;
+  padding: 5px 8px;
+  border-radius: 5px;
+  vertical-align: 8px;
+  color: #9fa8a88c;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-top: 30px;
+}
+
+#content {
+  padding: 50px 80px;
+  margin-bottom: -20px;
+}
+
+#title {
+  font-size: 180px;
+  margin-top: 80px;
+  color: #F0FFFF;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  padding-left: 15px;
+  opacity: 0.83;
+  font-weight: 600;
+}
+
+body {
+  background-image: url("paper.gif");
+  background-color: Linen;
+}
+
+#map {
+  width: 600px;
+  margin-left: auto;
+  height: 600px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
