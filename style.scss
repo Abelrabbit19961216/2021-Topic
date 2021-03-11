@@ -3,13 +3,14 @@
   padding: 0;
   font-family: 微軟正黑體;
 }
+// logo圖
 .container-fluid {
   img {
     width: 32px;
     height: 32px;
   }
 }
-
+// 開頭頁
 #card {
   margin-top: 30px;
   margin-left: 180px auto 10px;
@@ -24,7 +25,7 @@
   background-repeat: no-repeat;
   background-position: 150px -155px;
 }
-
+// 導覽頁
 span {
   font-size: 22px;
   background: #8d8d8d;
@@ -33,21 +34,24 @@ span {
   vertical-align: 8px;
   color: #9fa8a88c;
 }
-
+// 開頭頁
 #content {
   padding: 50px 80px;
   margin-bottom: -20px;
   margin-left: 900px;
 
-  h1 {
+
+ h1 {
     margin-left: 130px;
     padding-left: 130px;
-    font-size: 60px;
+    font-size: 80px;
     font-family: "Lucida Console", "Courier New", monospace;
     color: #000;
   }
 
+
 }
+
 #title {
   font-size: 180px;
   margin-top: 80px;
@@ -63,6 +67,7 @@ body {
   background-image: url("paper.gif");
 }
 
+// 地圖
 #map {
   padding-left: 350px;
   margin-left: 350px;
@@ -73,7 +78,7 @@ body {
     width: 750px;
   }
 }
-
+// 分隔線
 hr {
   width: 1500px;
   margin: 0 auto;
