@@ -69,13 +69,15 @@ body {
 
 // 地圖
 #map {
-  padding-left: 350px;
-  margin-left: 350px;
+  padding-top: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-left: 10px;
   text-align: center;
 
   img {
-    height: 700px;
-    width: 750px;
+    height: 1400px;
+    width: 1400px;
   }
 }
 // 分隔線
@@ -103,5 +105,15 @@ h1{
   margin-bottom: -100px;
   margin-left: 850px;
   font-size: 50px;
+  }
+}
+
+#aboutone {
+  p {
+    padding: 25px 80px;
+    margin-bottom: -200px;
+    padding-left: 450px;
+    margin-left: 450px;
+    font-size: 30px;
   }
 }
